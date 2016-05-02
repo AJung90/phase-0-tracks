@@ -1,0 +1,21 @@
+#octopus {
+	position: relative;
+	margin-top: 100px;
+	height: 250px;
+	width: 250px;
+	top: 150px;
+}
+
+#hat {
+	height: 167px;
+	width: 275px;
+	position: relative;
+	bottom: 50px;
+	right: 247px;
+}
+
+#glasses {
+	position: relative;
+	right: 469px;
+	top: 42px;
+}
