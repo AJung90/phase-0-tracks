@@ -1,0 +1,31 @@
+.column-1 {
+  background-color: hotpink;
+  display: inline-block;
+  width: 400px;
+  position: static;
+  margin: 10px;
+  padding: 5px;
+  border: groove;
+}
+  
+.column-2 {
+  background-color: gold;
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+  border: groove;
+}
+
+header {
+  color: white;
+  background-color:grey;
+  border: groove;
+  padding: 5px;
+  }
+ 
+ body {
+   background-color: blue;
+ }
