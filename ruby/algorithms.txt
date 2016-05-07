@@ -12,4 +12,18 @@ Release 0: Equip Your New Robot
 	-Once floor is reached, you should hear another ding. Doors will open and you will thus proceed exiting the elevator.
 
 
-
+Release 1: Running the Dishwasher
+-Gather dirty dishes, utensils, silverware, tupperware, cups, and any other small kitchenware.
+-Gently rinse each item in your sink under warm water before beginning to load them into the dishwasher:
+	-Load utensils and silverware into the small baskets.
+	-Load items such as plates, bowls, and anything that may need more thorough cleaning in the bottom rack.
+	-Load cups and more delicate items on the top rack.
+	-Insert soap packet or pour soap into designated placeholder usually located on the inside of the door.
+	-Close the dishwasher, turn the dial to desired time and settings, and let it run all the way to finish.
+-When dishwasher is finished running:
+	-Open the door but be careful as items are still very hot.
+	-Pull the bottom rack out and begin to organize the clean items:
+		-Take each item and place them with others of the same kind in your cupboards and cabinets
+	-If some items are not fully clean:
+		-Leave them in the dishwasher for cleaning next time.
+		-Or take them out and manually clean them in your sink.
