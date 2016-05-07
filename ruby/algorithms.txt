@@ -1,0 +1,15 @@
+Release 0: Equip Your New Robot
+-From outside the elevator:
+	-Determine what floor you are currently on.
+	-Select whether you want to go up or down.
+		-If you wish to go up, press the upward facing arrow button. That button should now be illuminated. If not, try again.
+		-If you wish to go down, press the downward facing arrow button. That button should now be illuminated. If not, try again.
+	-Wait for the elevator to reach your floor. Once you hear a ding and your selected button is no longer illuminated, the elevator doors should open.
+	-Step inside the elevator.
+-When inside the elevator:
+	-Select the floor number you desire to go to and press the corresponding numbered button.
+	-Elevator should now move in the direction you initially pressed.
+	-Once floor is reached, you should hear another ding. Doors will open and you will thus proceed exiting the elevator.
+
+
+
