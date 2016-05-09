@@ -68,4 +68,6 @@ end
 
 puts "Thank you, come again."
 
+#Theoretically, decrypt(encrypt("swordfish")) should work as it encrypts "swordfish" and then decrypts it. Not exactly what it returns as I received an error stating an undefined method 'length' for nil:NilClass.
+
 
