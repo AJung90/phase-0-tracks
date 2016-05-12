@@ -10,23 +10,23 @@
 # "zom".<???>
 # => “zoom”
 
-# "enhance".<???>
-# => "    enhance    "
+"enhance".center(20)
+=> "    enhance    "
 
-# "Stop! You’re under arrest!".<???>
-# => "STOP! YOU’RE UNDER ARREST!"
+"Stop! You’re under arrest!".upcase
+=> "STOP! YOU’RE UNDER ARREST!"
 
-# "the usual".<???>
-#=> "the usual suspects"
+"the usual".insert(9, ' suspects')
+=> "the usual suspects"
 
-# " suspects".<???>
-# => "the usual suspects"
+" suspects".insert(-10, 'the usual')
+=> "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
-# => "The case of the disappearing last lette"
+"The case of the disappearing last letter".chop
+=> "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
-# => "he mystery of the missing first letter"
+"The mystery of the missing first letter".byteslice(1..40)
+=> "he mystery of the missing first letter"
 
 # "Elementary,    my   dear        Watson!".<???>
 # => "Elementary, my dear Watson!"
