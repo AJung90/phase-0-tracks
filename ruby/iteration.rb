@@ -61,5 +61,26 @@ puts numbers
 # A method that filters a data structure for only items that do satisfy a certain condition (for example, keeping any numbers that are less than 5).
 
 
+numbers_2.each do |digit, word|
+	if digit > 4
+		puts "#{digit}, #{word}"
+	end
+end
+
+numbers.each do |number|
+	if number >= 7
+		puts "#{number}"
+	end
+end
 # A different method that filters a data structure for only items satisfying a certain condition -- Ruby offers several options!
+
+until numbers_2.delete_if {|digit, word| digit > 5}
+	puts numbers_2
+end
+puts numbers_2
+
+until numbers.delete_if {|number| number > 6}
+	puts numbers
+end
+puts numbers	
 # A method that will remove items from a data structure until the condition in the block evaluates to false, then stops.
