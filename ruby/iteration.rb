@@ -46,16 +46,20 @@ numbers_2 = {1 => "one", 2 => "two", 3 => "three", 4 => "four", 5 => "five", 6 =
 puts numbers_2
 #Create new hash and array
 
-numbers_2.delete_if {|digit, word| digit < 3}
+numbers_2.delete_if {|digit, word| digit < 2}
 puts numbers_2
 
-numbers.delete_if {|number| number < 6}
+numbers.delete_if {|number| number < 3}
 puts numbers
-
-
-
-
 # A method that iterates through the items, deleting any that meet a certain condition (for example, deleting any numbers that are less than 5).
+
+numbers_2.keep_if {|digit, word| digit > 3}
+puts numbers_2
+
+numbers.keep_if {|number| number > 4}
+puts numbers
 # A method that filters a data structure for only items that do satisfy a certain condition (for example, keeping any numbers that are less than 5).
+
+
 # A different method that filters a data structure for only items satisfying a certain condition -- Ruby offers several options!
 # A method that will remove items from a data structure until the condition in the block evaluates to false, then stops.
