@@ -2,8 +2,8 @@
 NBA = {
 	eastern_conference: {
 		playoff_matchups: {
-			Toronto: Miami,
-			Cleveland: Atlanta
+			Toronto: 'Miami',
+			Cleveland: 'Atlanta'
 		},
 		finals_teams_stars: [
 		"Dwayne Wade",
@@ -12,8 +12,8 @@ NBA = {
 	},
 	western_conference: {
 		playoff_matchups: {
-			Oklahoma_City: San_Antonio,
-			Golden_State: Portland
+			Oklahoma_City: 'San_Antonio',
+			Golden_State: 'Portland'
 		},
 		finals_teams_stars: [
 			"Kevin Durant",
@@ -24,4 +24,6 @@ NBA = {
 }
 
 #Testing a few different types of access
-puts NBA[:eastern_conference][playoff_matchups]
+puts NBA[:eastern_conference][:playoff_matchups]
+
+puts NBA[:western_conference][:finals_teams_stars][1]
