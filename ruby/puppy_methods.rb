@@ -44,15 +44,15 @@ class Cats
 end	
 
 #Driver Code
-charlie = Puppy.new
-puts charlie.fetch("ball")
-puts charlie.speak(3)
-puts charlie.roll_over
-puts charlie.dog_years(2)
-puts charlie.shake
-henry = Cats.new
-puts henry.meow(4)
-puts henry.nap
+# charlie = Puppy.new
+# puts charlie.fetch("ball")
+# puts charlie.speak(3)
+# puts charlie.roll_over
+# puts charlie.dog_years(2)
+# puts charlie.shake
+# henry = Cats.new
+# puts henry.meow(4)
+# puts henry.nap
 
 
 litterbox = []
@@ -62,9 +62,9 @@ x = 0
 while x <51
 	henry = Cats.new
 	litterbox.push(henry)
-	puts litterbox
-	x +=1
+  x +=1
 end
+	puts litterbox
 
 puts "iterating through henry"
 litterbox.each do |henry| 
