@@ -26,8 +26,8 @@ class Santa
 	end
 
 	def get_mad_at(reindeer_name)
-		@reindeer_ranking.delete("reindeer_name")
-		@reindeer_ranking.insert(-1, "reindeer_name")
+		@reindeer_ranking.delete(reindeer_name)
+		@reindeer_ranking.insert(-1, reindeer_name)
 	end
 
 end
@@ -55,4 +55,7 @@ p santas
 
 
 #Driver Code
-puts santa = Santa.new("male", "Asian")
+# puts santa = Santa.new("male", "Asian")
+
+# santor = Santa.new("female", "white")
+# p santor.get_mad_at("Dasher")
