@@ -29,4 +29,4 @@ puts parent.yelling_happily("Awesome job")
 
 child = Child.new
 puts child.yelling_happily("Why? I'm having so much fun")
-puts child. yell_angrily("Why would you do that???")
+puts child.yell_angrily("Why would you do that???")
