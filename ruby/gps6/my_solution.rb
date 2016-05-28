@@ -1,5 +1,6 @@
-# Virus Predictor# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# Virus Predictor
+# I worked on this challenge [by myself, with: Melanie Hahn].
+# We spent [1.5] hours on this challenge.
 
 # EXPLANATION OF require_relative
 # importing the file using a relative path (compared to the location of this file).
@@ -42,6 +43,7 @@ class VirusPredictor
 
   end
 
+# our attempt to refactor the predicted_deaths method
 
 # if @population_density >= 200
 #       number_of_deaths = (@population * 0.4).floor
@@ -104,3 +106,19 @@ end
 
 #=======================================================================
 # Reflection Section
+=begin
+1. What are the differences between the two different hash syntaxes shown in the state_data file?
+  One way to structure hash syntax would be to use the hash rocket. Another way would be to use 'key: value' where the key is a symbol.
+
+2. What does require_relative do? How is it different from require?
+  You can use require_relative to import a file if it is stored in the same folder as the one you are importing into, otherwise, you have to use require. Require means to import the file using its full path.
+
+3. What are some ways to iterate through a hash?
+  One way to iterate through a hash would be to use the .each or .map methods. Another way would be to use a loop and iterate through each key-value pairing at every index value of the hash.
+
+4. When refactoring virus_effects, what stood out to you about the variables, if anything?
+  There was no need to call the instance variables as they were already initialized and thus could be called anywhere within the class.
+
+5. What concept did you most solidify in this challenge?
+  The concepts I most solidified, yet still struggle a bit with, are the refactoring and also the syntax when iterating through a hash.
+=end
