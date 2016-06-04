@@ -1,0 +1,10 @@
+- this query was used to join the three tables together
+
+SELECT users.first_name, users.last_name, businesses.name, reviews.stars, reviews.comment FROM reviews JOIN businesses, users ON reviews.business_id = businesses.id AND reviews.user_id = users.id;
+
+
+
+
+- this query was used to join three tables and only show data for one particular business
+
+SELECT users.first_name, users.last_name, businesses.name, reviews.stars, reviews.comment FROM reviews JOIN businesses, users ON reviews.business_id = businesses.id AND reviews.user_id = users.id WHERE businesses.id = 2;
