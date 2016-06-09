@@ -1,0 +1,17 @@
+* {
+	background-color: gold;
+}
+
+div {
+    background-color: yellow;
+    border: groove;
+}
+
+h1 {
+	color: navy;
+}
+
+h2 {
+	color: red;
+	background-color: navy;
+}

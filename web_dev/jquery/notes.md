@@ -6,3 +6,8 @@ My plan to tackle jQuery
 
 * Along the way, I will try and implement some of the new things I've learned by creating and testing my own code making sure to take breaks about every half an hour. 
 
+Most effective strategies
+
+* Started out on Codecademy's jQuery course for about 20-30 minutes to familiarize myself with the syntax
+
+* Moved onto jQuery documentation to look at the different types of functions that could be run and tried out some examples
