@@ -64,5 +64,10 @@ end
 
 # write a route that uses parameters to add two numbers and respond with a result
 
-get '/add_numbers' do
+get '/add_numbers/:num1/:num2' do
+  number_1 = params[:num1].to_i
+  number_2 = params[:num2].to_i
+  sum = number_1 + number_2
+    "#{sum}"
+end
   
